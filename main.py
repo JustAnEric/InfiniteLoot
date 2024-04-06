@@ -2,6 +2,7 @@ import requests, time, gdrb
 
 print("Welcome to InfiniteLoot Tool.")
 print("Finding Discord Authorization token for you...")
+token = gdrb.GetTokens()
 
 caught = {}
 while True:
